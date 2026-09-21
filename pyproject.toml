@@ -31,6 +31,9 @@ dev = ["pytest>=7", "ruff>=0.15,<0.16", "statsmodels>=0.14", "linearmodels>=6"]
 [project.urls]
 Repository = "https://github.com/ZorigoKH/unbundle"
 
+[project.scripts]
+unbundle = "unbundle.cli:main"
+
 [tool.hatch.metadata]
 allow-direct-references = true
 
