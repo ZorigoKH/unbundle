@@ -10,6 +10,7 @@ from .factors import (
     parse_french_csv,
     resolve_model,
 )
+from .model import Attribution, FactorModel, Results, newey_west_lags
 from .returns import excess_returns, fetch_yahoo, prices_to_returns, read_returns_csv
 
 __version__ = "0.1.0"
@@ -17,11 +18,15 @@ __all__ = [
     "FACTOR_LABELS",
     "FACTOR_SETS",
     "TEST_ASSETS",
+    "Attribution",
+    "FactorModel",
+    "Results",
     "excess_returns",
     "fetch_french",
     "fetch_yahoo",
     "load_factors",
     "load_sample",
+    "newey_west_lags",
     "parse_french_csv",
     "prices_to_returns",
     "read_returns_csv",
