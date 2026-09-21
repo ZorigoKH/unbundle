@@ -13,6 +13,7 @@ from .factors import (
 from .model import Attribution, FactorModel, Results, newey_west_lags
 from .pricing import AlphaTest, alpha_test, grs_test, hac_wald
 from .returns import excess_returns, fetch_yahoo, prices_to_returns, read_returns_csv
+from .rolling import rolling_exposures
 
 __version__ = "0.1.0"
 __all__ = [
@@ -36,4 +37,5 @@ __all__ = [
     "prices_to_returns",
     "read_returns_csv",
     "resolve_model",
+    "rolling_exposures",
 ]
