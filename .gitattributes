@@ -1,0 +1,2 @@
+tests/fixtures/*.CSV -text
+*.csv.gz binary

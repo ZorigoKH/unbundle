@@ -1,0 +1,49 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "unbundle"
+version = "0.1.0"
+description = "Unbundle a fund's returns into the factor exposure you could buy for a few basis points and the alpha you are actually paying for."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "Zorigtbaatar Khasbaatar", email = "zk2380@nyu.edu" }]
+keywords = ["asset pricing", "factor models", "fama-french", "alpha", "newey-west", "GRS test", "fintech"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License",
+  "Topic :: Office/Business :: Financial :: Investment",
+  "Topic :: Scientific/Engineering",
+]
+dependencies = [
+  "numpy>=1.24",
+  "scipy>=1.10",
+  "pandas>=2.0",
+  "sandwich @ git+https://github.com/ZorigoKH/Sandwich.git",
+]
+
+[project.optional-dependencies]
+live = ["yfinance>=0.2.51"]
+dev = ["pytest>=7", "ruff>=0.15,<0.16", "statsmodels>=0.14", "linearmodels>=6"]
+
+[project.urls]
+Repository = "https://github.com/ZorigoKH/unbundle"
+
+[tool.hatch.metadata]
+allow-direct-references = true
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/unbundle"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B", "N"]
