@@ -1,0 +1,17 @@
+This file was created by CMPT_ME_BEME_RETS using the 202608 CRSP database.
+SYNTHETIC FIXTURE for unbundle's parser tests: the layout of a Ken French data library file, made-up values.
+The 1-month TBill return is from Ibbotson and Associates, Inc.
+
+,Mkt-RF,SMB,HML,RF
+202401,    1.00,   -2.00,    3.00,    0.40
+202402,    2.50,    0.50,   -1.25,    0.41
+202403,   -3.00,    1.10,    0.00,    0.42
+202404,    4.00,  -99.99,    2.20,    0.43
+202405,   -0.60,    0.70,   -0.80,    0.44
+202406,    0.10,    0.20,    0.30,    0.45
+
+ Annual Factors: January-December 
+,Mkt-RF,SMB,HML,RF
+  2024,   10.00,    1.00,    2.00,    5.00
+
+Copyright 2026 Kenneth R. French
