@@ -1,4 +1,9 @@
-"""unbundle: split a fund's returns into cheap factor exposure and the alpha you pay for."""
+"""unbundle: split a fund's returns into cheap factor exposure and the alpha you pay for.
+
+Time-series factor regressions (CAPM, Fama-French 3 and 5, Carhart) with Newey-West
+standard errors from ``sandwich``, return attribution, GRS and HAC joint alpha tests,
+rolling exposures and a one-file HTML tearsheet.
+"""
 
 from .factors import (
     FACTOR_LABELS,
