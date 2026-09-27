@@ -21,7 +21,7 @@ dependencies = [
   "numpy>=1.24",
   "scipy>=1.10",
   "pandas>=2.0",
-  "sandwich @ git+https://github.com/ZorigoKH/Sandwich.git",
+  "sandwich @ git+https://github.com/ZorigoKH/Sandwich.git@v0.2.0",
 ]
 
 [project.optional-dependencies]
