@@ -1,0 +1,22 @@
+{
+ "excluded": [],
+ "factors_through": "2026-08",
+ "funds": 33,
+ "generated_at": "2026-09-28",
+ "headline_model": "carhart",
+ "min_months": 36,
+ "robustness_model": "ff5mom",
+ "rolling_window": 36,
+ "schema_version": 1,
+ "sources": {
+  "factors": "Kenneth R. French Data Library",
+  "prices": "Yahoo Finance adjusted closes"
+ },
+ "stale": [],
+ "through": "2026-08",
+ "versions": {
+  "sandwich": "0.2.0",
+  "unbundle": "0.1.0"
+ },
+ "window_months": 120
+}
