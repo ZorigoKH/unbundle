@@ -1,0 +1,29 @@
+{
+  "name": "unbundle-live",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Static site for unbundle live: factor exposure versus alpha after fees for well-known equity funds.",
+  "license": "MIT",
+  "engines": {
+    "node": ">=20.9.0"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "typecheck": "next typegen && tsc --noEmit"
+  },
+  "dependencies": {
+    "geist": "^1.7.2",
+    "next": "^16.3.6",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.3.3",
+    "@types/node": "^22.20.4",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "tailwindcss": "^4.3.3",
+    "typescript": "^5.9.3"
+  }
+}
