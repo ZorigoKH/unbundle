@@ -1,0 +1,2 @@
+ticker,month,return,reason,source
+ARKK,2023-09,-0.093257,"price-only return: Yahoo adjusts for a $0.364 distribution on 2023-09-08 that ARK never paid (the fund's 2023 return after taxes on distributions equals its return before taxes, 67.82%)",https://www.sec.gov/Archives/edgar/data/1579982/000121390024104124/ea0221544-02_497k.htm

@@ -1,0 +1,34 @@
+ticker,name,kind,category,expense_ratio,er_as_of,er_source,note
+FCNTX,Fidelity Contrafund,active-fund,large growth,0.0074,2026-02-28,https://fundresearch.fidelity.com/mutual-funds/summary/316071109,
+FMAGX,Fidelity Magellan Fund,active-fund,large growth,0.0064,2026-05-30,https://fundresearch.fidelity.com/mutual-funds/summary/316184100,
+AGTHX,The Growth Fund of America (Class A),active-fund,large growth,0.0059,2025-11-01,https://www.capitalgroup.com/individual/investments/mutual-funds/details/gfa-a,Class A shares; returns are at NAV and exclude the front-end sales load
+AIVSX,The Investment Company of America (Class A),active-fund,large blend,0.0055,2026-03-01,https://www.capitalgroup.com/individual/investments/mutual-funds/details/ica-a,Class A shares; returns are at NAV and exclude the front-end sales load
+DODGX,Dodge & Cox Stock Fund (Class I),active-fund,large value,0.0051,2026-06-30,https://www.dodgeandcox.com/content/dam/dc/us/en/pdf/fact-sheets/Dodge_Cox_Stock_Fund_Fact_Sheet_I.pdf,Class I shares
+PRGFX,T. Rowe Price Growth Stock Fund (Investor Class),active-fund,large growth,0.0066,2026-03-01,https://www.troweprice.com/personal-investing/tools/fund-research/PRGFX,Investor Class
+VPMCX,Vanguard PRIMECAP Fund Investor Shares,active-fund,large growth,0.0035,2026-01-28,https://investor.vanguard.com/vmf/api/VPMCX/profile,Investor Shares
+VWNFX,Vanguard Windsor II Fund Investor Shares,active-fund,large value,0.0033,2026-02-27,https://investor.vanguard.com/vmf/api/VWNFX/profile,Investor Shares
+SEQUX,Sequoia Fund,active-fund,large growth,0.01,2026-05-01,https://www.sequoiafund.com/performance/,net of adviser reimbursement (gross 1.11%); reorganizing into Sequoia ETF (SEQ) about 2026-10-16
+OAKMX,Oakmark Fund (Investor Class),active-fund,large value,0.0089,2026-06-30,https://oakmark.com/our-funds/oakmark-fund/,Investor Class
+FLPSX,Fidelity Low-Priced Stock Fund,active-fund,small/mid value,0.0087,2025-09-29,https://fundresearch.fidelity.com/mutual-funds/summary/316345305,
+POAGX,PRIMECAP Odyssey Aggressive Growth Fund,active-fund,mid growth,0.0066,2026-02-28,https://www.odysseyfunds.com/funds/primecap-odyssey-aggressive-growth-fund,
+BGRFX,Baron Generational Growth Fund (Retail Shares),active-fund,small growth,0.016,2026-02-26,https://www.baronfunds.com/product-detail/baron-growth-fund-bgrfx,Retail Shares; renamed from Baron Growth Fund 2026-06-01; ER includes 0.30% interest expense on borrowing
+JENSX,Jensen Quality Growth Fund (Class J),active-fund,large blend,0.0082,2025-09-30,https://www.jenseninvestment.com/growth-prospectus,Class J shares
+ARKK,ARK Innovation ETF,active-etf,thematic growth,0.0075,2025-11-30,https://www.ark-funds.com/funds/arkk,"September 2023 uses the price-only return: Yahoo's adjusted closes include a $0.364 distribution on 2023-09-08 that ARK never paid (its 2023 return after taxes on distributions equals its return before taxes); the correction and its SEC source are in live/overrides.csv"
+JEPI,JPMorgan Equity Premium Income ETF,active-etf,derivative income,0.0035,2025-11-01,https://am.jpmorgan.com/us/en/asset-management/adv/products/jpmorgan-equity-premium-income-etf-etf-shares-46641q332,"options overlay: sells S&P 500 index calls for income, so equity betas are structurally below 1"
+BRK-B,Berkshire Hathaway Inc. (Class B),company,conglomerate,0,2026-09-27,n/a (company),"an operating company, not a fund"
+DFSVX,DFA U.S. Small Cap Value Portfolio (Institutional Class),factor-fund,small value,0.0031,2026-02-28,https://prospectus-express.broadridge.com/get_template.asp?clientid=dimenll&doctype=spro&fundid=233203819,Institutional Class; management fee falls from 0.28% to 0.26% on 2026-11-01
+AVUV,Avantis U.S. Small Cap Value ETF,factor-fund,small value,0.0025,2026-01-01,https://www.avantisinvestors.com/avantis-investments/avantis-us-small-cap-value-etf/,
+MTUM,iShares MSCI USA Momentum Factor ETF,factor-fund,momentum,0.0015,2025-11-28,https://www.ishares.com/us/products/251614/ishares-msci-usa-momentum-factor-etf,
+QUAL,iShares MSCI USA Quality Factor ETF,factor-fund,quality,0.0015,2025-11-28,https://www.ishares.com/us/products/256101/ishares-msci-usa-quality-factor-etf,
+USMV,iShares MSCI USA Min Vol Factor ETF,factor-fund,minimum volatility,0.0015,2025-11-28,https://www.ishares.com/us/products/239695/ishares-msci-usa-minimum-volatility-etf,
+VBR,Vanguard Morningstar Small-Cap Value ETF,factor-fund,small value,0.0005,2026-04-28,https://investor.vanguard.com/vmf/api/VBR/profile,renamed from Vanguard Small-Cap Value ETF on 2026-07-29 (CRSP indexes rebranded Morningstar)
+SCHD,Schwab U.S. Dividend Equity ETF,factor-fund,dividend,0.0006,2026-02-27,https://www.schwabassetmanagement.com/products/schd,
+SPY,State Street SPDR S&P 500 ETF Trust,index-fund,large blend,0.000945,2026-06-30,https://www.ssga.com/library-content/products/factsheets/etfs/us/factsheet-us-en-spy.pdf,
+VTI,Vanguard Morningstar Total Stock Market ETF,index-fund,total market,0.0003,2026-04-28,https://investor.vanguard.com/vmf/api/VTI/profile,renamed from Vanguard Total Stock Market ETF on 2026-07-29 (CRSP indexes rebranded Morningstar)
+QQQ,"Invesco QQQ Trust, Series 1",index-fund,large growth,0.0018,2026-09-25,https://www.invesco.com/us/en/financial-products/etfs/invesco-qqq-trust-series-1.html,fee cut from 0.20% to 0.18% when it became an open-end ETF (2025-12-22)
+IWM,iShares Russell 2000 ETF,index-fund,small blend,0.0019,2026-07-31,https://www.ishares.com/us/products/239710/ishares-russell-2000-etf,
+IWD,iShares Russell 1000 Value ETF,index-fund,large value,0.0018,2026-07-31,https://www.ishares.com/us/products/239708/ishares-russell-1000-value-etf,
+IWF,iShares Russell 1000 Growth ETF,index-fund,large growth,0.0018,2026-07-31,https://www.ishares.com/us/products/239706/ishares-russell-1000-growth-etf,
+XLK,State Street Technology Select Sector SPDR ETF,sector-fund,technology,0.0008,2026-06-30,https://www.ssga.com/library-content/products/factsheets/etfs/us/factsheet-us-en-xlk.pdf,
+XLE,State Street Energy Select Sector SPDR ETF,sector-fund,energy,0.0008,2026-06-30,https://www.ssga.com/library-content/products/factsheets/etfs/us/factsheet-us-en-xle.pdf,
+XLV,State Street Health Care Select Sector SPDR ETF,sector-fund,health care,0.0008,2026-06-30,https://www.ssga.com/library-content/products/factsheets/etfs/us/factsheet-us-en-xlv.pdf,
