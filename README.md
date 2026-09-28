@@ -67,6 +67,33 @@ res.rolling("ARKK")            # 36-month loadings: has the strategy drifted?
 Models: `capm`, `ff3` (Fama–French three-factor), `carhart` (ff3 + momentum), `ff5`
 (five-factor), `ff5mom`.
 
+## unbundle live
+
+A static website runs the same attribution on 33 well-known equity funds and ETFs: active
+mutual funds, active ETFs and Berkshire Hathaway, with index, factor and sector funds
+alongside as controls. For each one it shows how much of the last ten years' return was
+factor exposure an index fund sells for a few basis points and how much was alpha after
+fees (Carhart model, Newey–West t-statistics), with the break-even fee, growth of $1 against
+a factor replica, rolling 36-month exposures and a five-factor robustness check. Site: (link
+coming soon)
+
+A scheduled GitHub Actions job rebuilds the data twice a month from Yahoo prices and the Ken
+French library. To rebuild it by hand:
+
+```bash
+pip install -e ".[live]"
+python -m live.build --out web/data     # fetch, fit, run the checks, write web/data/*.json
+python -m live.validate web/data        # schema and invariant checks
+cd web && npm ci && npm run build       # the static site, in web/out/
+```
+
+Where a fund's own filings show that Yahoo's adjusted closes are wrong for a month (a
+distribution that was never paid, say), `live/overrides.csv` replaces that month's return
+before anything is fitted, with the reason and a source URL. The build never publishes data
+that ends earlier than what is already published unless you pass `--allow-older`.
+
+[web/README.md](web/README.md) explains how the site reads the data.
+
 ## The tearsheet
 
 `--report` writes one self-contained HTML file: no server, no network, nothing to install
