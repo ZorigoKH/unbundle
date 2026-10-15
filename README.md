@@ -74,8 +74,8 @@ mutual funds, active ETFs and Berkshire Hathaway, with index, factor and sector 
 alongside as controls. For each one it shows how much of the last ten years' return was
 factor exposure an index fund sells for a few basis points and how much was alpha after
 fees (Carhart model, Newey–West t-statistics), with the break-even fee, growth of $1 against
-a factor replica, rolling 36-month exposures and a five-factor robustness check. Site: (link
-coming soon)
+a factor replica, rolling 36-month exposures and a five-factor robustness check.
+The website source is in [`web/`](web/); the commands below build it locally.
 
 A scheduled GitHub Actions job rebuilds the data twice a month from Yahoo prices and the Ken
 French library. To rebuild it by hand:
